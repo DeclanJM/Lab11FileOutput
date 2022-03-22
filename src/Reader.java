@@ -12,7 +12,7 @@ public class Reader {
 
             return scnr;
         } catch(FileNotFoundException e) {
-            System.err.println("\"" + fileName + "\" not found, please ensure that the file trying to be read is in the folder just above the src directory.");;
+            System.err.println("\"" + fileName + "\" not found, please ensure that the file trying to be read is in the folder just above the src directory.");
             System.err.println("Program now exiting!");
             System.exit(-1);
         }
